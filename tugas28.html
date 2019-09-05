@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Tugas 28 CSS</title>
+
+    <style>
+        body{
+            margin: 5px;
+            padding: 5px;
+            background: rgba(14, 6, 6, 0.788);
+            color: white;
+        }
+
+        div{
+            margin: auto;
+        }
+
+        img{
+            margin-left: 480px;
+            margin-bottom: 30px;
+        }
+        
+        .button{
+            margin: 0px auto;
+            width: 620px;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+    <img src="fox.jpg" alt="fox" class="rounded-circle gambar" width="150px" height="150px">
+
+    <form>
+        <div class="col-md-7">
+            <label>Nama Lengkap</label>
+            <input type="text" class="form-control" placeholder="Nama Lengkap">
+        </div> <br>
+
+        <div class="col-md-7">
+            <label>Alamat</label>
+            <textarea name="alamat" class="form-control" rows="4" cols="40"></textarea>
+        </div> <br>
+        
+        <div class="col-md-7">
+            <label>Alamat email</label>
+            <input type="email" name="email" placeholder="alamat email (disabled)" class="form-control">
+        </div> <br>
+
+        <div class="col-md-7">
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="password" class="form-control">
+        </div> <br>
+
+        <div class="col-md-7">
+            <label>Scan file KTP</label><br>
+            <input type="file" class="">
+        </div> <br>
+        
+        <div class="col-md-7">
+            <input type="checkbox" name="checkbox">
+            <label><p>Saya <u>setuju</u> dan telah membaca <a href="">aturan</a> serta <a href="">ketentuan</a> yang berlaku.</p></label>
+        </div> <br>
+
+        <button type="button" class="btn btn-info btn-block button">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
